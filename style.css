@@ -103,7 +103,7 @@
 }
 
 .shop img{
-    width: 100%;
+    width: 50%;
 }
 .shop {
     display: flex;
@@ -116,7 +116,7 @@
     margin-left: 10%;
 }
 .three{
-    padding: 0px 70px;
+    padding: 0px 40px;
 }
 .numb button{
 border-radius: 30px;
