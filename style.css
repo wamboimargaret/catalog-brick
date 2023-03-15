@@ -210,9 +210,7 @@ margin-left: -22%;
 }
 }
 @media screen and(orientation:portrait) {
-    .footer{
-        width: 300px;
-    }
+    
     .games{
         width: 50%;
     }
