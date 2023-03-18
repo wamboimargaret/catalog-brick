@@ -204,15 +204,100 @@ margin-left: -22%;
 
 @media only screen and(max-width:700px) {
     body{
-       display: grid;
-       grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     }
-    
- }
-
-
-
-
-
-
-
+   
+    }
+   
+    /* Mobile Responsive CSS */
+    @media only screen and (max-width: 767px) {
+    .nav {
+    flex-direction: column;
+    margin-left: 0;
+    }
+    .nav li {
+    padding: 10px;
+    }
+    .BH h3 {
+    margin-right: 0;
+    }
+    #cata {
+    margin-left: 0;
+    }
+    #inp {
+    margin-left: 0;
+    }
+    .icons {
+    margin-left: 0;
+    }
+    .SW img {
+    margin-right: 0;
+    }
+    .IP {
+    flex-direction: column;
+    }
+    .IP i {
+    padding: 10px;
+    padding-top: 0;
+    }
+    .sidebox {
+    margin-left: 0;
+    }
+    .shop img {
+    width: 100%;
+    }
+    .container {
+    flex-direction: column;
+    }
+    .games {
+    margin-left: 0;
+    }
+    .three {
+    padding: 0 10px;
+    }
+    .numb {
+    margin-left: 0;
+    }
+    .see {
+    margin-left: auto;
+    margin-right: auto;
+    }
+    }
+   
+    /* Tablet Responsive CSS */
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .nav li {
+    padding: 12px;
+    }
+    .BH h3 {
+    margin-right: 15%;
+    }
+    #cata {
+    margin-left: -200%;
+    }
+    #inp {
+    margin-left: -100%;
+    }
+    .icons {
+    margin-left: 15%;
+    }
+    .SW img {
+    margin-right: 25%;
+    }
+    .sidebox {
+    margin-left: 20px;
+    }
+    .container {
+    flex-direction: column;
+    }
+    .games {
+    margin-left: 0;
+    }
+    .three {
+    padding: 0 20px;
+    }
+    .numb {
+    margin-left: 25%;
+    }
+     }
