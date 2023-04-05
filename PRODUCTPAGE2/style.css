@@ -213,3 +213,118 @@ margin-left: -22%;
     padding: 20px;
 }
 
+
+@media only screen and(max-width:700px) {
+    body{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    }
+   
+    }
+    /* Mobile Responsive CSS */
+    @media only screen and (max-width: 767px) {
+        .nav {
+        flex-direction: column;
+        margin-left: 0;
+        background-color: whitesmoke;
+        }
+        .nav li {
+        padding: 10px;
+        }
+        .BH h3 {
+        margin-right: 0;
+        }
+        #cata {
+        margin-left: 14px;
+        }
+        #inp {
+        margin-left: 50px;
+        }
+        .icons {
+        margin-left: -5px;
+        display: grid;
+        } 
+        .IP i {
+        padding: 10px;
+        padding-top: 0;
+        }
+        .sidebox {
+        margin-left: 0;
+        }
+        
+        .three {
+        padding: 0 10px;
+        }
+        #inp{
+            width: 75px;
+            padding-left: -60px;
+        }
+        .footer{
+         display: grid;
+        }
+        .copy{
+            flex-direction: column;
+        }
+        .shop{
+            display: grid;
+            
+        }
+        .cont{
+            display: grid;
+        }
+       .ord{
+        display: grid;
+       }
+       .parag pre{
+        font-size: 60%;
+        margin-left: -10%;
+       }
+
+        }
+       
+        /* Tablet Responsive CSS */
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .nav li {
+        padding: 12px;
+        }
+        .BH{
+            width: 130%
+        }
+        .SW{
+            width: 130%;
+        }
+        .BH h3 {
+        margin-right: 15%;
+        }
+        #cata {
+        margin-left: -200%;
+        }
+        #inp {
+        margin-left: -100%;
+        }
+        .icons {
+        margin-left: 15%;
+        }
+    
+        .container {
+        flex-direction: column;
+        }
+    
+        .three{
+        width: 72%;
+        }
+        .numb {
+        margin-left: 25%;
+        }
+        #inp{
+            margin-left: 10px;
+        }
+        .blue{
+            width: 130%;
+        }
+        
+         }
+
+
+
+
