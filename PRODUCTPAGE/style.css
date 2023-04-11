@@ -262,6 +262,7 @@ margin-left: -22%;
     body{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    
     }
    
     }
@@ -270,12 +271,13 @@ margin-left: -22%;
         .nav {
         flex-direction: column;
         margin-left: 0;
+        background-color: whitesmoke;
         }
         .nav li {
         padding: 10px;
         }
         .BH{
-            width: 136%;
+            /* width: 136%; */
         }
         .BH h3 {
         margin-right: 0;
@@ -287,7 +289,8 @@ margin-left: -22%;
         margin-left: 50px;
         }
         .icons {
-        margin-left: 0;
+        margin-left: -5px;
+        display: grid;
         } 
         .IP i {
         padding: 10px;
@@ -298,10 +301,13 @@ margin-left: -22%;
         }
         .stmt p{
         display:table-row;
+        margin-left: 0;
+        
         
         }
         .stmt{
             margin-left: -10%;
+            width: 70%;
         }
         .shop img {
         width: 100%;
@@ -315,16 +321,34 @@ margin-left: -22%;
         }
         
         .three {
-        padding: 0 10px;
+        width: 0px;
+        margin-left: 0;
         }
         #inp{
             width: 75px;
             padding-left: -60px;
         }
-        .blue{
-            width: 138%;
+        .footer{
+            display: grid;
         }
-       
+       .copy{
+        flex-direction: column;
+       }
+       #fun{
+        font-size: 15px;
+        
+        
+       }
+       .Legowalk{
+        margin-left: 0;
+       }
+       #walk3{
+        margin-left: 0;
+        
+       }
+       .BIGLEGO{
+        margin-left: 0;
+       }
         }
        
         /* Tablet Responsive CSS */
