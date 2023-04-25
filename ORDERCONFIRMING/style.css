@@ -64,9 +64,27 @@
     margin: 10px;
 }
 
+#info{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #252525;
+    margin-left: 50px;
+}
 
 .form{
     display: flex;
+    margin-left: 42px;
+}
+.form input{
+    padding: 9px;
+    width: 270px;
+    border:solid thin gainsboro;
+    border-radius: 5px;
+    color: aqua;
+    background-color: white;
+}
+.double{
+    padding: 20px;
 }
 
 #inst{
@@ -79,16 +97,26 @@
     font-size: 20px;
 }
 
-
+#free{
+    
+}
 
 .product{
     border:  solid thin gainsboro;
     padding:20px;
     border-radius: 20px;
     margin-bottom: 170px;
+    margin-right: 50px;
     
 }
-
+.promo{
+    padding: 9px;
+    width: 270px;
+    border:solid thin gainsboro;
+    border-radius: 5px;
+    background-color: white; 
+    margin-top:  15px;
+}
 .save70{
     padding: 9px;
     width: 270px;
@@ -126,17 +154,143 @@
     }
 
 .method{
-    margin-top: -25%
-    
+    margin-top: -19%;
+    margin-left: 50px;
+}
+.method h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #252525;  
+}
+.method i{
+    font-size: 20px;
+    color: gainsboro;
+}
+.method p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#yel{
+    color: #ffd600;
 }
 
 .payment{
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-left: 50px;
     
 }
+.payment h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #252525;
+}
+.payment i{
+    font-size: 20px;
+    color: gainsboro;
+}
+#AP{
+ color: black;
+}
+#GP{
+color: #e70000;
+}
 
+@media only screen and(max-width:700px) {
+    body{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    }
+   
+    }
+    /* Mobile Responsive CSS */
+    @media only screen and (max-width: 767px) {
+        .nav {
+        flex-direction: column;
+        margin-left: 0;
+        background-color: whitesmoke;
+        }
+        .nav li {
+        padding: 10px;
+        }
+        .BH h3 {
+        margin-right: 0;
+        }
+        #cata {
+        margin-left: 14px;
+        }
+        #inp {
+        margin-left: 50px;
+        }
+        .icons {
+        margin-left: -5px;
+        display: grid;
+        } 
+        .IP i {
+        padding: 10px;
+        padding-top: 0;
+        }
+        .sidebox {
+        margin-left: 0;
+        }
+        
+        .three {
+        padding: 0 10px;
+        }
+        #inp{
+            width: 75px;
+            padding-left: -60px;
+        }
+        .footer{
+         display: grid;
+        }
+        .copy{
+            flex-direction: column;
+        }
+        
 
-
+        }
+       
+        /* Tablet Responsive CSS */
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .nav li {
+        padding: 12px;
+        }
+        .BH{
+            width: 130%
+        }
+        .SW{
+            width: 130%;
+        }
+        .BH h3 {
+        margin-right: 15%;
+        }
+        #cata {
+        margin-left: -200%;
+        }
+        #inp {
+        margin-left: -100%;
+        }
+        .icons {
+        margin-left: 15%;
+        }
+    
+        .container {
+        flex-direction: column;
+        }
+    
+        .three{
+        width: 72%;
+        }
+        .numb {
+        margin-left: 25%;
+        }
+        #inp{
+            margin-left: 10px;
+        }
+        .blue{
+            width: 130%;
+        }
+        
+         }
 
 
 
