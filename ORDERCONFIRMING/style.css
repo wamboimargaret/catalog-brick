@@ -1,0 +1,143 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+}
+.nav li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 19px 19px;
+    text-align: center;
+}
+.BH{
+    display: flex;
+    background-color: #ffd600;
+    
+}
+
+    
+.BH h3{
+    color:white;
+    margin-right:25%;
+    padding-left: 14px;
+    
+}
+#cata{
+    background-color: rgb(226, 220, 220);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: -350%;
+    margin-top: 16px;
+    border: transparent;
+    
+
+
+}
+#inp{
+    border-radius: 5px;
+    background-color: white;
+    color: gainsboro;
+    margin: 15px;
+    height: 40px;
+    width: 250px;
+    margin-left: -100% ; 
+    border: transparent;
+
+}
+.icons{
+    margin-left: 30%;
+    margin-top: 20px;
+    
+}
+.icons i{
+    padding: 10px;
+    color: white;
+}
+#ht{
+    margin: 10px;
+}
+#cart{
+    margin: 10px;
+}
+#use{
+    float: right;
+    margin: 10px;
+}
+
+
+.form{
+    display: flex;
+}
+
+#inst{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#252525
+}
+#PA{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+
+.product{
+    border:  solid thin gainsboro;
+    padding:20px;
+    border-radius: 20px;
+    margin-bottom: 170px;
+    
+}
+
+.save70{
+    padding: 9px;
+    width: 270px;
+    border:solid thin aqua;
+    border-radius: 5px;
+    color: aqua;
+    background-color: white;
+    
+}
+.order{
+    padding: 9px;
+    width: 270px;
+    margin-top: 15px;
+    color: white;
+    background-color: #ffd600;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+#pick{
+    /* padding: 10px; */
+    color: #E70062;
+    /* border-radius: 10px ; */
+    /* background-color: #E70062; */
+    }
+    #nov{
+    color: red;
+    }
+    #map{
+    color: #ffd600;
+    }
+
+.method{
+    margin-top: -25%
+    
+}
+
+.payment{
+    margin-top: 10%;
+    
+}
+
+
+
+
+
+
+
