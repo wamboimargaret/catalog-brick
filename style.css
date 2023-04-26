@@ -223,19 +223,17 @@ margin-left: -22%;
     margin-right: 0;
     }
     #cata {
-    margin-left: 0;
+    margin-left: 14px;
     }
     #inp {
-    margin-left: 0;
+    margin-left: 50px;
     }
     .icons {
-    margin-left: 0;
+    margin-left: -5px;
+    display: grid;
     }
     .SW img {
     margin-right: 0;
-    }
-    .IP {
-    flex-direction: column;
     }
     .IP i {
     padding: 10px;
@@ -244,18 +242,22 @@ margin-left: -22%;
     .sidebox {
     margin-left: 0;
     }
-    .shop img {
-    width: 100%;
+    .shop{
+    display: inline-table ;
+    
     }
     .container {
     flex-direction: column;
     }
     .games {
-    margin-left: 0;
-    
+    margin-left: 0;    
     }
     .three {
     padding: 0 10px;
+    }
+    #inp{
+        width: 75px;
+        padding-left: -60px;
     }
     .numb {
     margin-left: 0;
@@ -265,8 +267,16 @@ margin-left: -22%;
     margin-right: auto;
     }
     .footer{
-        grid-template-columns: repeat(1fr 1fr);
+        display: grid;
+        
     }
+    
+    .copy h2{
+        margin-left: -22%;
+        }
+        .copy i{
+            margin-top: 2%;
+        }
     }
    
     /* Tablet Responsive CSS */
