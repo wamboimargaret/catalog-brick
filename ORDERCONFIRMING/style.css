@@ -86,6 +86,9 @@
 .double{
     padding: 20px;
 }
+.double2{
+    padding: 20px;
+}
 
 #inst{
     font-family: Arial, Helvetica, sans-serif;
@@ -224,26 +227,27 @@ color: #e70000;
         margin-left: -5px;
         display: grid;
         } 
-        .IP i {
-        padding: 10px;
-        padding-top: 0;
-        }
-        .sidebox {
-        margin-left: 0;
-        }
-        
-        .three {
-        padding: 0 10px;
-        }
+          
         #inp{
             width: 75px;
             padding-left: -60px;
         }
-        .footer{
-         display: grid;
+        .flex{
+           display: grid;
         }
-        .copy{
-            flex-direction: column;
+        .method{
+            margin-left: 0;   
+        }
+        .method p{
+           font-size: 80%; 
+        }
+        .payment{
+            margin-left: 0;
+            
+        }
+        .form{
+            margin-left: 0;
+            display: grid;
         }
         
 
